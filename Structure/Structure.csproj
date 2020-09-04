@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.3.0.3890" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MWGeometry">
+      <HintPath>..\packages\MWGeometry.0.0.1\lib\net461\MWGeometry.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

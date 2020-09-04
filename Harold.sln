@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harold", "Harold\Harold.csproj", "{D9077574-80B2-42CB-B56E-F27AA26D06E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8819F530-0ED7-46C4-8E2E-AFB8B7F5A7A7} = {8819F530-0ED7-46C4-8E2E-AFB8B7F5A7A7}
+		{3D1714F2-3F36-4C40-A661-915A630A3850} = {3D1714F2-3F36-4C40-A661-915A630A3850}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageReader", "ImageReader\ImageReader.csproj", "{8819F530-0ED7-46C4-8E2E-AFB8B7F5A7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEModel", "FEModel\FEModel.csproj", "{3D1714F2-3F36-4C40-A661-915A630A3850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TensorFlowServingClient", "TensorFlowServingClient\TensorFlowServingClient.csproj", "{73169028-08E0-45D3-8673-241B7164163A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure", "Structure\Structure.csproj", "{A5A9974D-3657-4E43-9A4F-C8EA66F68515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9077574-80B2-42CB-B56E-F27AA26D06E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9077574-80B2-42CB-B56E-F27AA26D06E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9077574-80B2-42CB-B56E-F27AA26D06E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9077574-80B2-42CB-B56E-F27AA26D06E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8819F530-0ED7-46C4-8E2E-AFB8B7F5A7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8819F530-0ED7-46C4-8E2E-AFB8B7F5A7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8819F530-0ED7-46C4-8E2E-AFB8B7F5A7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8819F530-0ED7-46C4-8E2E-AFB8B7F5A7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1714F2-3F36-4C40-A661-915A630A3850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1714F2-3F36-4C40-A661-915A630A3850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1714F2-3F36-4C40-A661-915A630A3850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1714F2-3F36-4C40-A661-915A630A3850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73169028-08E0-45D3-8673-241B7164163A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73169028-08E0-45D3-8673-241B7164163A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73169028-08E0-45D3-8673-241B7164163A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73169028-08E0-45D3-8673-241B7164163A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A9974D-3657-4E43-9A4F-C8EA66F68515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A9974D-3657-4E43-9A4F-C8EA66F68515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A9974D-3657-4E43-9A4F-C8EA66F68515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A9974D-3657-4E43-9A4F-C8EA66F68515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D9A857-8C4C-49A3-8788-18ACAE9D4422}
+	EndGlobalSection
+EndGlobal

@@ -3,3 +3,14 @@
 ################################################################################
 
 /.vs/Harold
+/FEModel/bin
+/FEModel/obj
+/Harold/bin
+/Harold/obj
+/ImageReader/bin
+/ImageReader/obj
+/packages
+/Structure/bin/Debug/netstandard2.0
+/Structure/obj
+/TensorFlowServingClient/bin/Debug
+/TensorFlowServingClient/obj

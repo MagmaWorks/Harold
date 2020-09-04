@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="Harold.UCSettings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Harold"
+             mc:Ignorable="d">
+    <Grid Margin="10 10 10 10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Grid.Row="0"
+            Text="Python path location"/>
+
+        <Grid
+            Margin="10 10 10 10"
+            Grid.Row="1">
+            <StackPanel Orientation="Vertical">
+                <CheckBox
+                    Margin="2 2 2 2"
+                    Name="localCB"
+                    IsChecked="False"
+                    Click="localCB_Clicked"
+                    Content="local"/>
+                <CheckBox
+                    Margin="2 2 2 2"
+                    Name="serverCB"
+                    IsChecked="True"
+                    Click="serverCB_Clicked"
+                    Content="server"/>
+            </StackPanel>
+            
+        </Grid>
+
+        <!--<Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" Margin="5 5 5 5">
+                <TextBlock Text="IP address"/>
+                <TextBox 
+                    Margin =" 5 0 0 0" 
+                    Width="90" 
+                    Text="20.49.159.251" 
+                    HorizontalContentAlignment="Center"
+                    LostFocus="IPAddressChanged"/>
+            </StackPanel>
+        </Grid>-->
+
+        <Grid Grid.Row="3" Margin="0 10 0 0">
+            <Button
+                Content="OK"
+                Click="OK_Clicked"
+                Width="80"
+                Height="26"/>
+        </Grid>
+
+    </Grid>
+</UserControl>
