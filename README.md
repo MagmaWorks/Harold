@@ -18,7 +18,7 @@ Due to size issues, storing the machine learning model within the app is not a s
 
 ## Connect your smartphone camera to your PC
 
-To improve your experience you can connect your smartphone camera to your computer thanks to a third party app (like https://www.e2esoft.com/ivcam/). You need to install the app both on your iPhone and your PC. Connection can be established through WiFi (both your PC and your iPhone must be connected to the same network, detection is then automatic). Your PC camera will always work as a default option.
+To improve your experience you can connect your smartphone camera to your computer thanks to a third party app (like [ivCam](https://www.e2esoft.com/ivcam/)). You need to install the app both on your iPhone and your PC. Connection can be established through WiFi (both your PC and your iPhone must be connected to the same network, detection is then automatic). Your PC camera will always work as a default option.
 
 ## How to use the app
 
