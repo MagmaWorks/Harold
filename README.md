@@ -1,5 +1,3 @@
-Welcome to the Harold wiki!
-
 Get your pencils out! Harold is a machine learning app using Generative Adversarial Network (GAN) to transform your (very) flat 2D sketches into vibrant 3D models.
 
 # About the implementation
