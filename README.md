@@ -10,7 +10,7 @@ Get your pencils out! Harold is a machine learning app using Generative Adversar
 
 The app uses a GAN to transform a input picture of a 2D sketch into a output codified image where elements are easily identifiable by their color. This output image is then post-processed with image-processing techniques to extract structural elements and build the 3D model. 
 
-[[https://github.com/MagmaWorks/Harold/blob/master/docs/HaroldScheme.png|alt=HaroldScheme]]
+![Harold Scheme](https://github.com/MagmaWorks/Harold/blob/master/docs/HaroldScheme.png)
 
 The GAN is based on the [pix2pix](https://phillipi.github.io/pix2pix/) by Isola et al, and using its tensorflow implementation [pix2pix-tensorflow](https://github.com/affinelayer/pix2pix-tensorflow) by [Christopher Hesse](https://github.com/christopherhesse).
 
@@ -23,7 +23,7 @@ The model has been trained on a set of 460 images like the ones shown below. Tra
 * Openings (blue)
 Training the model to identify additional elements could be considered.
 
-[[https://github.com/MagmaWorks/Harold/blob/master/docs/TrainingSet.png|alt=Training set]]
+![Training Set](https://github.com/MagmaWorks/Harold/blob/master/docs/TrainingSet.png)
 
 In order to easily distinguish elements in image post-processing, the model is trained to associate each elements with RGB colors having 0 or 255 on each channel (e.g. (255,0,0), (0,255,0) or (255,0,255)). This helps to differentiate colors and identify structural elements.
 
@@ -41,4 +41,4 @@ To improve your experience you can connect your smartphone camera to your comput
 
 Select your camera source in the drop-down list, then click the green PLAY button. Once you are happy with the picture shown on the capture window, click the CAMERA button to take a screenshot. That’s it! You can then play with the number of stories and the horizontal scaling of your model.
 
-[[https://github.com/MagmaWorks/Harold/blob/master/docs/HaroldUI.png|alt=Harold UI]]
+![Harold UI](https://github.com/MagmaWorks/Harold/blob/master/docs/HaroldUI.png)
